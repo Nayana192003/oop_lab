@@ -1,0 +1,26 @@
+/* c++ program to implement simple calculator*/
+#include<iostream>
+using namespace std;
+int main()
+{
+	int choice;
+	int n1,n2;
+	cout<<"enetr two num\n";
+	cin<<n1;
+	cin<<n2;
+	cout<<"enter choice\n";
+	cout<<"1.add\n2.subtract\n3.divide\n4.multiply";
+	cin>>choice;
+	switch(choice)
+	{
+		case 1: cout<<n1+n2;
+				break;
+		case 2: cout<<n2-n1;
+				break;
+		case 3:	cout<<n2/n1;
+				break;
+		case 4: cout<<n1*n2;
+				break;
+		default: cout<<"invalid choice";
+	}
+}
