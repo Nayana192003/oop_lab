@@ -1,0 +1,11 @@
+/*c++ program to print square of a number*/
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x;
+	cout<<"This is output\n";
+	cout<<"Enter a num\n"; // input for x
+	cin>>x;
+	cout<<"Square is:"<<x*x<<"\n"; // to print square of the number x
+}
