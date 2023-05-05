@@ -1,0 +1,21 @@
+/*c++ program to check if the given num is prime or not*/
+#include<iostream>
+using namespace std;
+int main()
+{
+	int num;
+	cout<<"Enter a num\n";
+	cin>>num;
+	if(num==2||num==3||num==5||num==7||num==11)
+	{
+		cout<<"num is prime\n";
+	}
+	else if(num%2==0||num%3==0||num%5==0||num%7==0||num%9==0)
+	{
+		cout<<"num is not prime\n";
+	}
+	else
+	{
+		cout<<"num is prime\n";
+	}
+}
