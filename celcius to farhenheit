@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int d,c;
+	cout<<"enter celcius\n";
+	cin>>c;
+	d=(c*9/5)+32;
+	cout<<d;
+}
